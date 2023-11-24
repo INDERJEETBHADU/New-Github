@@ -52,7 +52,7 @@
     }
 
     .bgcolor-blue {
-        color: var(--bgcolor-blue);
+        background-color: var(--bgcolor-blue);
     }
 
     .color-blue {
@@ -60,7 +60,7 @@
     }
 
     .bg-color-light-black {
-        color: var(--bg-color-light-black);
+        background-color: var(--bg-color-light-black);
     }
 
     @media(min-width:576px) {
