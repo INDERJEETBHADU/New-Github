@@ -12,6 +12,7 @@
         --color-white: #fbfdff;
         --bgcolor-blue: #0163cb;
         --color-blue: #0389ff;
+        --bg-color-light-black:#020d15;
     }
 
     .fs-sm {
@@ -59,6 +60,58 @@
     }
 
     @media(min-width:576px) {
+        :root {
+            /* -------------------font_size_starts_here_---------------- */
+            --fs-sm: 14px;
+            --fs-md: 15px;
+            --fs-lg: 16px;
+            --fs-xl: 18px;
+            --fs-2xl: 20px;
+            --fs-3xl: 32px;
+            --fs-4xl: 44px;
+            --fs-5xl: 48px;
+        }
+    }
+    @media(min-width:768px) {
+        :root {
+            /* -------------------font_size_starts_here_---------------- */
+            --fs-sm: 14px;
+            --fs-md: 15px;
+            --fs-lg: 16px;
+            --fs-xl: 18px;
+            --fs-2xl: 20px;
+            --fs-3xl: 32px;
+            --fs-4xl: 44px;
+            --fs-5xl: 48px;
+        }
+    }
+    @media(min-width:992px) {
+        :root {
+            /* -------------------font_size_starts_here_---------------- */
+            --fs-sm: 14px;
+            --fs-md: 15px;
+            --fs-lg: 16px;
+            --fs-xl: 18px;
+            --fs-2xl: 20px;
+            --fs-3xl: 32px;
+            --fs-4xl: 44px;
+            --fs-5xl: 48px;
+        }
+    }
+    @media(min-width:1200px) {
+        :root {
+            /* -------------------font_size_starts_here_---------------- */
+            --fs-sm: 14px;
+            --fs-md: 15px;
+            --fs-lg: 16px;
+            --fs-xl: 18px;
+            --fs-2xl: 20px;
+            --fs-3xl: 32px;
+            --fs-4xl: 44px;
+            --fs-5xl: 48px;
+        }
+    }
+    @media(min-width:1400px) {
         :root {
             /* -------------------font_size_starts_here_---------------- */
             --fs-sm: 14px;
