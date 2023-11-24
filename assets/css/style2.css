@@ -69,3 +69,213 @@
 .line_height_152 {
     line-height: 152%;
 }
+
+.ls-3 {
+    letter-spacing: 3px;
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+/************************************padding-margin********************************************************/
+.pl-15 {
+    padding-left: 15.3px;
+}
+
+.pr-23 {
+    padding-right: 23px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+/************************************padding-margin********************************************************/
+
+.nav-box {
+    width: 100%;
+    max-width: 1440px;
+    height: 70px;
+    border-bottom: 1px solid rgba(251, 253, 255, 0.20);
+    background-color: #040D17;
+}
+
+.bg_img {
+    background-image: url(../images/bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 60vh;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+.nav-btn {
+    padding: 13px 32px;
+    border-radius: 40px;
+    background: linear-gradient(160deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+    border: none;
+    transition: all 300ms linear;
+}
+
+.nav-btn:hover {
+    background: var(--color-black);
+
+}
+
+.line_nav {
+    position: relative;
+}
+
+.line_nav::after {
+    position: absolute;
+    content: "";
+    bottom: -15%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-white);
+    transition: all 0.3s linear;
+}
+
+.line_nav:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+.line_head {
+    width: 100%;
+    max-width: 109.304px;
+    height: 0px;
+    border: 1px solid #0389FF;
+    opacity: 100% !important;
+
+}
+
+.hero-btn {
+    padding: 13px 32px;
+    border-radius: 40px;
+    background: linear-gradient(160deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+    border: none;
+}
+
+.hero-btn:hover {
+    background: var(--color-black);
+}
+
+.hero-sec-ellips {
+    width: 100%;
+    max-width: 299.329px;
+    max-height: 303.657px;
+    height: 100%;
+    border-radius: 303.657px;
+    opacity: 0.4;
+    background: #1673FF;
+    filter: blur(100px);
+}
+
+.mx-width {
+    max-width: 515.857px
+}
+
+@media (max-width:991.9px) {
+    .mobile_view {
+        position: absolute;
+        background-color: transparent;
+        backdrop-filter: blur(50px);
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 300ms linear;
+        z-index: 2;
+    }
+
+    .overflow_hidden {
+        overflow: hidden;
+    }
+
+    .menu span:nth-child(1) {
+        height: 4px;
+        width: 35px;
+        background-color: var(--color-blue);
+        display: block;
+    }
+
+    .menu span:nth-child(2) {
+        height: 4px;
+        width: 35px;
+        background-color: var(--color-blue);
+        display: block;
+    }
+
+    .menu span:nth-child(3) {
+        height: 4px;
+        width: 35px;
+        background-color: var(--color-blue);
+        display: block;
+    }
+
+    .menu span {
+        transition: 300ms linear;
+    }
+
+    .cross span:nth-child(1) {
+        transform: rotate(42deg) translateY(16px);
+        transition: 300ms linear;
+    }
+
+    .cross span:nth-child(2) {
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: 0.5ms linear;
+    }
+
+    .cross span:nth-child(3) {
+        transform: rotate(-43deg) translateY(-15px);
+        transition: 300ms linear;
+    }
+}
+
+@media (min-width:576px) {
+    .line_head {
+        border: 2px solid #0389FF;
+    }
+}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {
+    .pr-23 {
+        padding-right: 49px;
+    }
+
+    .pl-15 {
+        padding-left: 39.5px;
+    }
+
+    .pt-20 {
+        padding-top: 81px;
+    }
+
+    .nav-btn {
+        padding: 13px 21px;
+    }
+}
+
+@media (min-width:1200px) {
+    .nav-btn {
+        padding: 13px 32px;
+    }
+}

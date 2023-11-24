@@ -4,20 +4,62 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>AI</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style2.css">
 </head>
 
-<body>
-    <header>
-        <nav>
-<img src="./assets/images/dox,ai logo 1.png" alt="d">
-        </nav>
+<body class="bg-color-light-black">
+    <header class="bg_img">
+        <div class="nav-box d-flex justify-content-between align-items-center bg-filter">
+            <img class="pl-15" src="./assets/images/dox,ai logo 1.png" alt="logo">
+            <ul class="d-flex align-items-center gap-5 mobile_view pr-23" id="navbar">
+                <li><a href=""
+                        class="ff_plus_jakt color-white ftw-400 line_height_126 ls-3 text-uppercase mb-0 opcty_8 line_nav">redact</a>
+                </li>
+                <li><a href=""
+                        class="ff_plus_jakt color-white ftw-400 line_height_126 ls-3 text-uppercase mb-0 opcty_8 line_nav">extract</a>
+                </li>
+                <li><a href=""
+                        class="ff_plus_jakt color-white ftw-400 line_height_126 ls-3 text-uppercase mb-0 opcty_8 line_nav">detect</a>
+                </li>
+                <li><a href=""
+                        class="ff_plus_jakt color-white ftw-400 line_height_126 ls-3 text-uppercase mb-0 opcty_8 line_nav">compare</a>
+                </li>
+                <li><button class="nav-btn btn_new color-white ff_plus_jakt ftw-600 position-relative" >Try Now</button>
+                </li>
+            </ul>
+            <div onclick="openNav()" class="menu  d-block d-lg-none z-3 pr-23">
+                <span></span>
+                <span class="my-2"></span>
+                <span></span>
+              </div>
+        </div>
+        <div class="container">
+            <div class="row pt-20">
+                <div class="col-12 col-md-6">
+                    <div class="d-flex gap-2">
+                        <hr class="line_head"><p class="color-white mb-0 ftw-300 ff_plus_jakt fs-3xl line_height_121">The world’s<span class="mb-0 color-blue ff_plus_jakt ftw-300 line_height_121">#1</span></p>
+                    </div>
+                    <h2 class="ff_plus_jakt mb-0 color-white ftw-700 line_height_126 text-capitalize fs-5xl pt-1">AI powered document compliance solution</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mx-width">
+                        <p class="ff_plus_jakt color-white mb-0 ftw-400 opcty_7 fs-lg">iDox.ai provides the world’s most advanced AI powered redaction solution for organizations to scan and detect within document management systems, folders, and multitude of file sources.</p>
+                        <button class="color-white ff_plus_jakt ftw-600 line_height_170 hero-btn mt-4">Request Demo</button>
+                    </div>
+                </div>
+            </div>
+            <img class="w-100 mt-5" src="./assets/images/hero-sec-img.png" alt="hero-sec-img">
+            <div class="hero-sec-ellips">
+            </div>
+        </div>
     </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
