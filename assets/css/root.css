@@ -12,7 +12,7 @@
         --color-white: #fbfdff;
         --bgcolor-blue: #0163cb;
         --color-blue: #0389ff;
-        --bg-color-light-black:#020d15;
+        --bg-color-light-black: #020d15;
     }
 
     .fs-sm {
@@ -59,6 +59,10 @@
         color: var(--color-blue);
     }
 
+    .bg-color-light-black {
+        color: var(--bg-color-light-black);
+    }
+
     @media(min-width:576px) {
         :root {
             /* -------------------font_size_starts_here_---------------- */
@@ -72,6 +76,7 @@
             --fs-5xl: 48px;
         }
     }
+
     @media(min-width:768px) {
         :root {
             /* -------------------font_size_starts_here_---------------- */
@@ -85,6 +90,7 @@
             --fs-5xl: 48px;
         }
     }
+
     @media(min-width:992px) {
         :root {
             /* -------------------font_size_starts_here_---------------- */
@@ -98,6 +104,7 @@
             --fs-5xl: 48px;
         }
     }
+
     @media(min-width:1200px) {
         :root {
             /* -------------------font_size_starts_here_---------------- */
@@ -111,6 +118,7 @@
             --fs-5xl: 48px;
         }
     }
+
     @media(min-width:1400px) {
         :root {
             /* -------------------font_size_starts_here_---------------- */
