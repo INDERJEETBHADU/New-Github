@@ -2,12 +2,25 @@
         /* -------------------font_size_starts_here_---------------- */
         --fs-sm: 14px;
         --fs-md: 15px;
-        --fs-lg: 16px;
+<<<<<<< HEAD
+        --fs-lg: 12px;
+=======
+<<<<<<< HEAD
+        --fs-lg: 13px;
         --fs-xl: 18px;
         --fs-2xl: 20px;
         --fs-3xl: 32px;
-        --fs-4xl: 44px;
+        --fs-4xl: 26px;
         --fs-5xl: 48px;
+=======
+        --fs-lg: 15px;
+>>>>>>> 862e3d626b1463ac14cbc7c8e73f242831f52204
+        --fs-xl: 18px;
+        --fs-2xl: 20px;
+        --fs-3xl: 27px;
+        --fs-4xl: 29px;
+        --fs-5xl: 27px;
+>>>>>>> 61fd790217b639f1d0ff0192508d6eb5331328f6
         /* ---------------------color_starts_here----------------------- */
         --color-white: #fbfdff;
         --bgcolor-blue: #0163cb;
@@ -68,12 +81,12 @@
             /* -------------------font_size_starts_here_---------------- */
             --fs-sm: 14px;
             --fs-md: 15px;
-            --fs-lg: 16px;
+            --fs-lg: 18px;
             --fs-xl: 18px;
             --fs-2xl: 20px;
             --fs-3xl: 32px;
-            --fs-4xl: 44px;
-            --fs-5xl: 48px;
+            --fs-4xl: 40px;
+            --fs-5xl: 36px;
         }
     }
 
@@ -82,12 +95,21 @@
             /* -------------------font_size_starts_here_---------------- */
             --fs-sm: 14px;
             --fs-md: 15px;
-            --fs-lg: 16px;
+            --fs-lg: 14px;
             --fs-xl: 18px;
             --fs-2xl: 20px;
             --fs-3xl: 32px;
-            --fs-4xl: 44px;
+<<<<<<< HEAD
+            --fs-4xl: 34px;
+=======
+<<<<<<< HEAD
+            --fs-4xl: 30px;
             --fs-5xl: 48px;
+=======
+            --fs-4xl: 44px;
+>>>>>>> 862e3d626b1463ac14cbc7c8e73f242831f52204
+            --fs-5xl: 34px;
+>>>>>>> 61fd790217b639f1d0ff0192508d6eb5331328f6
         }
     }
 
@@ -101,7 +123,7 @@
             --fs-2xl: 20px;
             --fs-3xl: 32px;
             --fs-4xl: 44px;
-            --fs-5xl: 48px;
+            --fs-5xl: 38px;
         }
     }
 
@@ -115,7 +137,7 @@
             --fs-2xl: 20px;
             --fs-3xl: 32px;
             --fs-4xl: 44px;
-            --fs-5xl: 48px;
+            --fs-5xl: 39px;
         }
     }
 
