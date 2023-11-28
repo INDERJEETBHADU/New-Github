@@ -5,18 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>iDox.ai</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/images/used_for_logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
-<body class="bg-color-light-black">
-    <header class="bg_img">
+
+<body class="bg-color-light-black overflow-hidden">
+    <div id="preload"
+        class="h-100 min-vh-100 w-100 d-flex align-items-center justify-content-center bg-black z-11 position-absolute start-0 top-0">
+        <div class="wrapper">
+            <svg class="load">
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                    iDox.ai
+                </text>
+            </svg>
+        </div>
+    </div>
+    <header class="bg_img ">
         <div class="nav-box d-flex justify-content-between align-items-center bg-filter">
-            <img class="pl-15" src="./assets/images/dox,ai logo 1.png" alt="logo">
+            <img class="pl-15" src="./assets/images/dox,ailogo1.png" alt="logo">
             <ul class="d-flex align-items-center gap-5 mobile_view pr-23" id="navbar">
                 <li><a href=""
                         class="ff_plus_jakt color-white ftw-400 line_height_126 ls-3 text-uppercase mb-0 opcty_8 line_nav cursor_pointer">redact</a>
@@ -30,7 +47,8 @@
                 <li><a href=""
                         class="ff_plus_jakt color-white ftw-400 line_height_126 ls-3 text-uppercase mb-0 opcty_8 line_nav cursor_pointer ">compare</a>
                 </li>
-                <li><button class="nav-btn btn_new color-white ff_plus_jakt ftw-600 position-relative">Try Now</button>
+                <li><button class="nav-btn btn_new color-white ff_plus_jakt ftw-600 position-relative fs-lg">Try
+                        Now</button>
                 </li>
             </ul>
             <div onclick="openNav()" class="menu  d-block d-lg-none z-3 pr-23">
@@ -55,20 +73,20 @@
                         <p class="ff_plus_jakt color-white mb-0 ftw-400 opcty_7 fs-lg">iDox.ai provides the world’s most
                             advanced AI powered redaction solution for organizations to scan and detect within document
                             management systems, folders, and multitude of file sources.</p>
-                        <button class="color-white ff_plus_jakt ftw-600 line_height_170 hero-btn mt-4">Request
+                        <button class="color-white ff_plus_jakt ftw-600 line_height_170 hero-btn mt-4 fs-lg">Request
                             Demo</button>
                     </div>
                 </div>
             </div>
-            <img class="w-100 mt-5 mt-lg-0" src="./assets/images/hero-sec-img.png" alt="hero-sec-img"
+            <img class="w-100 mt-5 mt-lg-0 " src="./assets/images/hero-sec-img.png" alt="hero-sec-img"
                 data-aos="fade-up">
             <div class="position-absoulte_1 hero-sec-ellips d-none d-xl-block">
             </div>
         </div>
     </header>
-    <section class="overflow-hidden">
-        <p class="ff_plus_jakt mb-0 ftw-300 line_height_121 fs-2xl color-white opcty_7 text-center mt-3">In
-            collaboration with</p>
+    <section class="overflow-hidden  ">
+        <h2 class="ff_plus_jakt mb-0 ftw-300 line_height_121 fs-2xl color-white opcty_7 text-center mt-3">In
+            collaboration with</h2>
         <div class="slick d-xxl-flex align-items-center gap-40 w-100 mt-2">
             <div class="mx-2 mx-xxl-0"><img src="./assets/images/slider-img-1.png" alt="slick-img-1"
                     class="slick-img cursour-pointer">
@@ -96,14 +114,15 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class=" ">
         <div class="container pb-50">
             <div class="row">
                 <div class="col-12 col-md-6" data-aos="fade-up-right">
                     <div><img src="./assets/images/security-sec-img.png" alt="security-sec-img"
                             class="w-100 cursour-pointer"></div>
                 </div>
-                <div class="col-12 col-md-6 d-flex justify-content-end align-items-center" data-aos="fade-left">
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center"
+                    data-aos="fade-left">
                     <div class="mx-w-467 d-flex justify-content-center align-items-center">
                         <div class="ff_plus_jakt ">
                             <h2 class="color-white ftw-500 text-capitalize line_height_126 fs-4xl mb-0">Compliance
@@ -112,7 +131,7 @@
                                 ultrices
                                 aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
                             <button
-                                class="security-btn color-white ff_plus_jakt ftw-600 line_height_170 text-capitalize mt-3">watch
+                                class="security-btn color-white ff_plus_jakt ftw-600 line_height_170 text-capitalize mt-3 fs-lg">watch
                                 demo video</button>
                         </div>
                     </div>
@@ -120,7 +139,7 @@
             </div>
         </div>
     </section>
-    <section class="position-relative overflow-hidden">
+    <section class="position-relative overflow-hidden  ">
         <div class="container pb-70">
             <div class="row pt-50">
                 <div class="col-12 col-md-6 d-flex align-items-center justify-content-start" data-aos="zoom-in-right">
@@ -135,7 +154,8 @@
                                 reduce risk of human error, combat time sensitive redaction requests, avoid costly
                                 penalties at
                                 a fraction of the price.</p>
-                            <button class="security-btn color-white ftw-600 line_height_170 text-capitalize mt-3">watch
+                            <button
+                                class="security-btn color-white ftw-600 line_height_170 text-capitalize mt-3 fs-lg">watch
                                 demo video</button>
                         </div>
                     </div>
@@ -187,7 +207,7 @@
         <div class="position-absoulte_3 hero-sec-ellips d-none d-xl-block">
         </div>
     </section>
-    <section class="position-relative">
+    <section class="position-relative  ">
         <div class="container">
             <div class="row d-flex flex-column-reverse flex-md-row pt-md-89">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-down">
@@ -264,8 +284,244 @@
         </div>
     </section>
     <!-- /********************************************Ritik-section-end***********************************************************/ -->
+    <!-- vishal_html____starts_herer_____________________ -->
+    <!-- ------------------------- slider---------------------  -->
+    <section class=" overflow-hidden pb-5  ">
+
+        <h2 class="fs-4xl ftw-500 ff_plus_jakt text-center color-white pt-5">Testimonials</h2>
+
+
+        <div class="one-time d-flex justify-content-center slider_hight pt-4">
+            <div class="slider_card mx-3 py-5 px-3 position-relative ">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/images/slider_logo.png" alt="slider_logo">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p
+                        class="mb-0 text-center justify-content-center d-flex align-items-center color-white pt-3 fs-2xl  line_height_150 ftw-400 ff_plus_jakt slider_pera">
+                        “Quick, well designed, and saved our
+                        team over 97% of time. Our team was able to meet subject access
+                        requests and meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                </div>
+                <p class="mb-0 fs-sm ftw-400 font_i color-white line_height_140 text-center pt-4">Carl Bevan</p>
+                <div class="slider_ellips d-none d-lg-block"></div>
+            </div>
+            <div class="slider_card mx-3 py-5 px-3 position-relative">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/images/slider_logo.png" alt="slider_logo">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p
+                        class="mb-0 text-center d-flex align-items-center color-white pt-3 fs-2xl  line_height_150 ftw-400 ff_plus_jakt slider_pera">
+                        “Quick, well designed, and saved our
+                        team over 97% of time. Our team was able to meet subject access
+                        requests and meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                </div>
+                <p class="mb-0 fs-sm ftw-400 font_i color-white line_height_140 text-center pt-4">Carl Bevan</p>
+                <div class="slider_ellips d-none d-lg-block"></div>
+            </div>
+            <div class="slider_card mx-3 py-5 px-3 position-relative">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/images/slider_logo.png" alt="slider_logo">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p
+                        class="mb-0 text-center d-flex align-items-center color-white pt-3 fs-2xl  line_height_150 ftw-400 ff_plus_jakt slider_pera">
+                        “Quick, well designed, and saved our
+                        team over 97% of time. Our team was able to meet subject access
+                        requests and meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                </div>
+                <p class="mb-0 fs-sm ftw-400 font_i color-white line_height_140 text-center pt-4">Carl Bevan</p>
+                <div class="slider_ellips d-none d-lg-block"></div>
+            </div>
+            <div class="slider_card mx-4 py-5 px-3 position-relative">
+                <div class="d-flex justify-content-center">
+                    <img src="assets/images/slider_logo.png" alt="slider_logo">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p
+                        class="mb-0 text-center d-flex align-items-center color-white pt-3 fs-2xl  line_height_150 ftw-400 ff_plus_jakt slider_pera">
+                        “Quick, well designed, and saved our
+                        team over 97% of time. Our team was able to meet subject access
+                        requests and meet GDPR mandates using the iDox.ai redaction solution.”</p>
+                </div>
+                <p class="mb-0 fs-sm ftw-400 font_i color-white line_height_140 text-center pt-4">Carl Bevan</p>
+                <div class="slider_ellips d-none d-lg-block"></div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ------------------------- slider---------------------  -->
+    <!-- ----------------------we_provide---------------------- -->
+    <section class=" position-relative overflow-hidden  ">
+
+        <div class="container  pt-4">
+            <div class="row">
+                <div class="col-md-6 col-12 z-2 ">
+                    <img src="./assets/images/vishal_secure_img.png" alt="we_probe_img" class="w-100">
+                </div>
+                <div class="col-md-6 col-12 d-flex align-items-center justify-content-lg-center">
+
+                    <div class="z-2">
+                        <h2 class="fs-4xl mb-0 ftw-500 ff_plus_jakt line_height_126 we_pro_heading color-white pt-1">
+                            We
+                            provide secure solutions</h2>
+                        <p
+                            class="mb-0 fs-lg  ftw-400 ff_plus_jakt  opcty_7 color-white we_pro_heading_pera line_height_170">
+                            For nationwide and global teams, our cloud-based solutions keep everyone on the same
+                            page,
+                            all
+                            backed by our SOC 2 and ISO 27001 certifications.</p>
+                        <button class="line_height_170 fs-lg color-white learn_btn mt-4  ftw-400 text-capitalize">learn
+                            more</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pos_absolute_ell_l z-0 d-none d-lg-block "></div>
+            <div class="pos_absolute_ell_r z-0 d-none d-lg-block "></div>
+        </div>
+        <!-- ----------------------we_provide---------------------- -->
+        <!-- --------------how_to_work_section ---------------------- -->
+        <div class="container py-5 position-relative">
+            <h2 class="fs-4xl mb-0 ftw-500 ff_plus_jakt text-center line_height_126 color-white ">
+                How it works</h2>
+            <p class="line_height_170 fs-lg color-white opcty_7 ff_plus_jakt text-center ftw-400 pb-3">Only 2 minutes
+                redacting a 10 page
+                document</p>
+            <div class="row">
+                <div
+                    class="col-xl-3 col-lg-4 col-md-6 col-12 position-relative  mt-3 d-flex justify-content-center justify-content-lg-start ">
+                    <div>
+                        <img src="assets/images/Group_1.png" alt="Group_1" class="">
+                        <svg class="icon_position  d-none d-md-block" xmlns="http://www.w3.org/2000/svg" width="55"
+                            height="32" viewBox="0 0 55 32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M37.0491 0.691891L54.718 15.9656L37.0491 31.7426L47.3725 18.0517L0.76172 16.2532L47.3725 14.4019L37.0491 0.691891Z"
+                                fill="url(#paint0_linear_2_11868)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2_11868" x1="54.718" y1="16.2173" x2="5.04814"
+                                    y2="16.2173" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0389FF" offset="1" />
+                                    <stop offset="1" stop-color="#0389FF" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+
+                        </svg>
+                        <p class="fs-2x ftw-500 ff_plus_jakt opcty_9 color-white pt-4">Click to select a file</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xl-3 col-lg-4 col-md-6 col-12 position-relative mt-3 d-flex justify-content-center justify-content-lg-start">
+                    <div>
+                        <img src="assets/images/Group_2.png" alt="Group_2">
+                        <svg class="icon_position  d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" width="55"
+                            height="32" viewBox="0 0 55 32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M37.0491 0.691891L54.718 15.9656L37.0491 31.7426L47.3725 18.0517L0.76172 16.2532L47.3725 14.4019L37.0491 0.691891Z"
+                                fill="url(#paint0_linear_2_11868)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2_11898" x1="54.718" y1="16.2173" x2="5.04814"
+                                    y2="16.2173" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0389FF" offset="1" />
+                                    <stop offset="1" stop-color="#0389FF" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="fs-2x ftw-500 ff_plus_jakt opcty_9 color-white pt-4">Select data model</p>
+                    </div>
+                </div>
+                <div
+                    class="col-xl-3 col-lg-4 col-md-6 col-12 position-relative mt-3 d-flex justify-content-center justify-content-lg-start">
+                    <div>
+                        <img src="assets/images/Group_3.png" alt="Group_3">
+                        <svg class="icon_position d-lg-none d-xl-block" xmlns="http://www.w3.org/2000/svg" width="55"
+                            height="32" viewBox="0 0 55 32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M37.0491 0.691891L54.718 15.9656L37.0491 31.7426L47.3725 18.0517L0.76172 16.2532L47.3725 14.4019L37.0491 0.691891Z"
+                                fill="url(#paint0_linear_2_11868)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_2_12868" x1="54.718" y1="16.2173" x2="5.04814"
+                                    y2="16.2173" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0389FF" offset="1" />
+                                    <stop offset="1" stop-color="#0389FF" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <p class="fs-2x ftw-500 ff_plus_jakt opcty_9 color-white  pt-4">Auto Highlight by AI</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-12 col-md-6 col-12 mt-3 d-flex justify-content-center ">
+                    <div>
+                        <img src="assets/images/Group_4.png" alt="Group_4">
+                        <p class="fs-2x ftw-500 ff_plus_jakt opcty_9 color-white  pt-4">Doc. has been redacted</p>
+                    </div>
+                </div>
+            </div>
+            <div class="how_it_work_pos z-0 d-none d-md-block"></div>
+            <div class="d-flex justify-content-center mt_35 pb-4">
+                <button class="line_height_170 fs-lg color-white try_btn mt-4  ftw-600 text-capitalize">try now</button>
+            </div>
+        </div>
+        <!-- --------------how_to_work_section ---------------------- -->
+    </section>
+    <!-- -----------------Our Integrations-------------------- -->
+    <section class=" position-relative">
+        <div class="container py-5">
+            <h2 class="fs-4xl mb-0 ftw-500 ff_plus_jakt text-center line_height_126 color-white pb-4 ">
+                Our Integrations</h2>
+
+
+            <div class="row pt-5 ">
+                <div class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_bottom border_right ">
+                    <img src="assets/images/Group_01.png" alt="Group_01">
+                </div>
+                <div
+                    class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_top2 border_bottom  border_left border_right  ">
+                    <img class="" src="assets/images/Group_02.png" alt="Group_02">
+                </div>
+                <div
+                    class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_top2 border_bottom border_right   ">
+                    <img src="assets/images/image_03.png" alt="Group_03">
+                </div>
+                <div
+                    class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_top2 border_bottom border_left ">
+                    <img src="assets/images/Group_04.png" alt="Group_04">
+                </div>
+                <div
+                    class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_top2 border_bottom_2 border_top2 border_right ">
+                    <img src="assets/images/Group_05.png" alt="Group_05 ">
+                </div>
+                <div
+                    class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_top2 border_bottom_2 border_left border_right border_top2 ">
+                    <img src="assets/images/Group_06.png" alt="Group_06 ">
+                </div>
+                <div
+                    class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_top2 border_bottom_2 border_right border_top2 ">
+                    <img src="assets/images/Group_07.png" alt="Group_07 ">
+                </div>
+                <div
+                    class="col-xl-3 col-lg-6 col-12 py_64 d-flex justify-content-center border_top2 border_bottom_2 border_left border_top2 ">
+                    <img src="assets/images/Group_08.png" alt="Group_08">
+                </div>
+
+            </div>
+            <div class="ellips_our_inter z-0 d-none d-md-block"></div>
+
+
+        </div>
+    </section>
+    <!-- -----------------Our Integrations-------------------- -->
+    <!-- vishal______html ends____here________________ -->
+
+
+
+
+
+
     <!--___________________________ inderjeet_first_section_starts_here+++++++++++++++++ -->
-    <section class="bg-color-light-black overflow_hidden ">
+    <section class="bg-color-light-black overflow_hidden   ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 d-flex align-items-center ">
@@ -299,12 +555,12 @@
                         alt="inderjeet_first_lrge_img">
                 </div>
             </div>
-            <div class="position_absolute_1 blue_ellipse_1 blue_ellipse_common">
+            <div class="position_absolute_1 blue_ellipse_1 blue_ellipse_common d-none d-md-block">
             </div>
         </div>
     </section>
     <!--+_______________________________ our_plan_section_starts_here______________________ -->
-    <section class="bg-color-light-black mt_neg_2 overflow-hidden position-relative overflow_hidden">
+    <section class="bg-color-light-black mt_neg_2 overflow-hidden position-relative  ">
         <div class="container position-relative">
             <h2 class="ftw-500 fs-4xl color-white ff_plus_jakt mb-0 text-center text-capitalize">choose the plan best
                 fits for
@@ -595,45 +851,51 @@
             </div>
             <div class="position_absolute_2 blue_ellipse_1 blue_ellipse_common">
             </div>
+        </div>
     </section>
     <!-- _____+++++++++++++++++++++++++section_get_started_starts_here____________________ -->
-    <section class="bg_img_get_start mt_neg_2  pb_126 overflow_hidden height_465">
+    <section class="bg_img_get_start mt_neg_2  pb_126 overflow_hidden height_465  ">
         <div class="container">
             <h2 class="mb-0 ff_plus_jakt text-center ftw-500 line_height_126 text-capitalize fs-4xl color-white pt_56">
                 Get
                 started today!
             </h2>
-            <p class="mb-0 color-white text-center ff_plus_jakt ftw-400 line_height_170 opcty_7 pt-1">Arcu
+            <p class="mb-0 color-white text-center ff_plus_jakt ftw-400 line_height_170 opcty_7 pt-1 mx_para mx-auto">
+                Arcu
                 egestas
                 pellentesque velit
                 facilisis in
                 in. Tortor
                 nisl urna
                 lacus mauris
-                adipiscing <br>
+                adipiscing
                 commodo purus. Lectus etiam
                 arcu sagittis pellentesque hendrerit.</p>
-            <div class="d-flex justify-content-center">
-                <div
-                    class="email_box  mt-5 d-flex flex-column align-items-center gap-4 flex-sm-row justify-content-sm-between ">
+            <div class="d-flex justify-content-center flex-column flex-sm-row">
+                <div class="email_box py-3 py-sm-0  mt-5 d-flex align-items-center gap-4  justify-content-sm-between ">
                     <input type="email" placeholder="Enter your email here" style="border: none; outline: none;" class="ff_plus_jakt fs-lg mb-0 ftw-400 line_height_170
                             color-white opcty_8 bg-light-grey ">
                     <button
-                        class="ff_plus_jakt mb-0 color-white ftw-600 fs-lg line_height_170 text-capitalize select_btn btn_common_pop">Sign
+                        class="d-none d-sm-block ff_plus_jakt mb-0 color-white ftw-600 fs-lg line_height_170 text-capitalize select_btn btn_common_pop">Sign
                         up
                         now</button>
                 </div>
+                <button
+                    class="d-sm-none ff_plus_jakt mb-0 mt-4 mx-auto color-white ftw-600 fs-lg line_height_170 text-capitalize select_btn btn_common_pop">Sign
+                    up
+                    now</button>
             </div>
 
         </div>
     </section>
     <!--_________________________________ footer_section_starts_here_____________________ -->
-    <footer class="footer-bg-color overflow_hidden">
+    <footer class="footer-bg-color overflow_hidden  ">
         <div class="container_custom">
             <div class="row pb-95 justify-content-between pt_56 ">
                 <div class=" col-xl-2 col-lg-4 col-12 logo-box pe-lg-0">
-                    <img src="./assets/images/dox,ai logo 1.png" alt="footer" class="cursor_pointer">
-                    <p class="mb-0 color-white ff_plus_jakt ftw-400 line_height_152 fs-md opcty_5 pt-3">Any system that
+                    <img src="./assets/images/dox,ailogo1.png" alt="footer" class="cursor_pointer">
+                    <p class="mb-0 color-white ff_plus_jakt ftw-400 line_height_152 fs-md opcty_5 pt-3">Any
+                        system that
                         works with
                         API can be connected via APIcenter.</p>
                     <div class="d-flex align-items-center gap-10 mt-4">
@@ -824,24 +1086,22 @@
             </div>
         </div>
         <hr class="footer-line">
-        <p class="ff_plus_jakt ftw-400 fs-lg opcty_5 color-white footer-bottom-line m-0 text-center">2023 © Foxit
+        <p class="ff_plus_jakt ftw-400 fs-lg opcty_5 color-white footer-bottom-line m-0 text-center">2023 ©
+            Foxit
             Software
             Incorporated. All rights reserved.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init(
-            {
-                once: true,
-                duration: 2000,
-            }
-        );
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="./assets/js/app.js"></script>
-    /******************************************Ritik-slick-slider**********************************************************/
     <script>
         $('.slick').slick({
             dots: false,

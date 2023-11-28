@@ -3,11 +3,11 @@
     --fs-sm: 14px;
     --fs-md: 15px;
     --fs-lg: 12px;
-    --fs-xl: 18px;
-    --fs-2xl: 20px;
-    --fs-3xl: 32px;
-    --fs-4xl: 26px;
-    --fs-5xl: 48px;
+    --fs-xl: 14px;
+    --fs-2xl: 15px;
+    --fs-3xl: 21px;
+    --fs-4xl: 22px;
+    --fs-5xl: 26px;
 
     /* ---------------------color_starts_here----------------------- */
     --color-white: #fbfdff;
@@ -79,7 +79,7 @@
         --fs-xl: 18px;
         --fs-2xl: 20px;
         --fs-3xl: 32px;
-        --fs-4xl: 44px;
+        --fs-4xl: 34px;
         --fs-5xl: 36px;
     }
 }
@@ -94,7 +94,7 @@
         --fs-2xl: 20px;
         --fs-3xl: 32px;
         --fs-4xl: 30px;
-        --fs-5xl: 48px;
+        --fs-5xl: 33px;
 
     }
 }
@@ -109,7 +109,7 @@
         --fs-2xl: 20px;
         --fs-3xl: 32px;
         --fs-4xl: 44px;
-        --fs-5xl: 48px;
+        --fs-5xl: 40px;
     }
 }
 
