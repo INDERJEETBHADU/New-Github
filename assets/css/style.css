@@ -159,7 +159,7 @@ ul {
 .btn_common_pop {
     box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
     border-radius: 40px;
-    padding: 11px 28px;
+    padding: 13px 32px;
 }
 
 /*___________________ inderjeet_margin_padding_starts_here________________________ */
@@ -261,6 +261,23 @@ ul {
     border: 1px solid transparent;
     max-width: 162px;
     width: 100%;
+    position: relative;
+}
+
+.select_btn::before {
+    background: transparent;
+
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+    top: 0;
+    border-radius: 40px;
+    opacity: 0;
+
+
 }
 
 .select_btn:hover {
@@ -455,13 +472,36 @@ ul {
     border: none;
     transition: all 300ms linear;
     border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
 }
+
+.nav-btn::before {
+    background: black;
+    border: 1px solid var(--color-white);
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    border-radius: 40px;
+    transition: 300ms linear;
+}
+
+.nav-btn:hover::before {
+    opacity: 1;
+    left: 0;
+}
+
 
 .nav-btn:hover {
     border: 1px solid var(--color-white);
     box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
-    background: none;
-    opacity: 0.7;
+    /* background: none; */
+    /* opacity: 0.7; */
 }
 
 .line_nav {
@@ -567,7 +607,7 @@ ul {
     border-radius: 10px;
     background: rgba(3, 137, 255, 0.12);
     backdrop-filter: blur(12.5px);
-    padding: 17px 0px 0px 15px;
+    padding: 17px 0px 35px 15px;
 }
 
 .dash-board-inner-box {
@@ -630,6 +670,7 @@ ul {
     position: absolute;
     top: 38%;
     left: 21%;
+    z-index: -1;
 }
 
 .position-absoulte_5 {
@@ -904,6 +945,10 @@ ul {
         border-bottom: 1px solid #273138;
     }
 
+    .border_left {
+        border-left: 1px solid #273138;
+    }
+
 }
 
 @media (min-width:992px) {
@@ -911,14 +956,12 @@ ul {
         border-bottom: 1px solid #273138;
     }
 
-    .border_left {
-        border-left: 1px solid #273138;
-    }
+
 
 }
 
 @media (min-width:1200px) {
-    .border_right {
+    .border_right2 {
         border-right: 1px solid #273138;
     }
 
